@@ -4,26 +4,24 @@
 }
 
 /*scroll bar*/
-*::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    background-color: transparent/*#9098ac;*/
+    background-color: transparent /*#9098ac;*/
 }
 
-*::-webkit-scrollbar
-{
+*::-webkit-scrollbar {
     width: 6px;
     background-color: #F5F5F5;
 }
 
-*::-webkit-scrollbar-thumb
-{
+*::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #9098ac;
     /*background-color: #555;*/
 }
+
 /*scroll bar end*/
 
 *, *:before, *:after {
@@ -185,7 +183,6 @@ html {
 
 /*header end*/
 
-
 /*main*/
 .main {
     display: flex;
@@ -288,7 +285,6 @@ html {
 
 /*main left-menu-section end*/
 /*main-left end*/
-
 
 /*main-right*/
 .main-right {
@@ -410,7 +406,6 @@ ul.main-right-header-list {
 }
 
 /*advantage end*/
-
 
 /*statistics*/
 
@@ -541,7 +536,6 @@ ul.main-right-header-list {
     /*flex-grow: 1;*/
     /*margin: 0 10px;*/
 
-
     /*i think maybe ill use this*/
     /*box-sizing: border-box;
     padding: 24px;*/
@@ -630,7 +624,6 @@ ul.main-right-header-list {
     background-color: #000000;
     border-radius: 50%;
 }
-
 
 .order-text span {
     display: block;
@@ -799,7 +792,6 @@ ul.main-right-header-list {
     background-color: #ffffff;
 }
 
-
 /*views-section end*/
 
 /*statistics-right end*/
@@ -897,11 +889,9 @@ ul.main-right-header-list {
     width: 100%;
 }
 
-
 .sales-table tr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
-
 
 .tc-1 {
     background-color: #2961ff;
@@ -1045,7 +1035,6 @@ ul.main-right-header-list {
     border-radius: 50%;
     margin-right: 3px;
 }
-
 
 .overview-dot.fir {
     background-color: #2962FF;
@@ -1262,6 +1251,10 @@ ul.main-right-header-list {
     align-items: center;
     padding-left: 7px;
     cursor: pointer;
+}
+
+.comment-list-items:hover {
+    color: #2961ff;
 }
 
 .comment-title {
@@ -1535,7 +1528,6 @@ ul.main-right-header-list {
     margin-bottom: 15px;
     margin-top: -5px;
 }
-
 
 .sales-col-2-header-date-section {
     display: flex;
