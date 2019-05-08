@@ -125,6 +125,7 @@ html {
     align-items: center;
     background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .header-list-item:hover {
@@ -138,6 +139,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 .header-burger-line {
@@ -215,6 +217,7 @@ html {
     font-size: 16px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .main-profile-icon {
@@ -224,6 +227,7 @@ html {
 
 .main-profile-expand-icon {
     font-size: 16px;
+    cursor: pointer;
 }
 
 /*main profile-section end*/
@@ -466,6 +470,7 @@ ul.main-right-header-list {
     font-size: 16px;
     line-height: 22px;
     margin: 0 0 8px 0;
+    cursor: pointer;
 }
 
 .main-right-statistic-left-arrow {
@@ -1111,6 +1116,7 @@ ul.main-right-header-list {
 
 /*overview progress end*/
 
+/*statistics but i forgot write in this section 1 statics*/
 .overview-statistics-section {
     margin: 30px 0 20px 0;
 }
@@ -1255,6 +1261,7 @@ ul.main-right-header-list {
     display: flex;
     align-items: center;
     padding-left: 7px;
+    cursor: pointer;
 }
 
 .comment-title {
@@ -1491,6 +1498,7 @@ ul.main-right-header-list {
     font-size: 16px;
     line-height: 22px;
     margin: 0 0 8px 0;
+    cursor: pointer;
 }
 
 .sales-col-1-header {
@@ -1539,6 +1547,7 @@ ul.main-right-header-list {
     font-size: 16px;
     line-height: 22px;
     margin: 0 0 8px 0;
+    cursor: pointer;
 }
 
 .overview1-title {
@@ -1673,6 +1682,7 @@ ul.main-right-header-list {
     font-size: 15px;
     /*font-weight: 400;*/
     font-weight: 300;
+    cursor: pointer;
 }
 
 .main-left-menu-sub-title-wrap {
@@ -1712,6 +1722,7 @@ ul.main-right-header-list {
 
 .main-profile-expand-icon.material-icons {
     line-height: inherit;
+    /* cursor: pointer; */
 }
 
 .main-profile-icon.material-icons {
